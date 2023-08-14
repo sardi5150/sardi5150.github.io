@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, h1 {
+            padding: 0;
+            margin: 0;
+            font-family: arial;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: bisque;
+            color: white;
+            font-size: 3em;
+            position: relative;
+            min-height: 100vh;
+        
+
+        }
+
+        .video-bg {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            z-index: -100;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>pertama</h1>
+        <video class="video-bg" src="video/videoplayback.mp4" autoplay muted loop></video>
+    </div>
+    
+</body>
+</html>
