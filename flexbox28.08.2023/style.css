@@ -1,0 +1,192 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding-bottom: 1000px;
+    background-color: #4fa1bf;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #d4d1d1;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px;
+    display: flex;
+    height: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.profile{
+    width: 400px;
+    background-color: #cdcdc0;
+    box-shadow: 1px 1px 5px;
+    margin: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 800px;
+    
+}
+.profile img{
+    position: relative;
+    width: 390px;
+    height: auto;
+}
+ul li{
+    list-style-type: none;
+}
+.fas{
+    color: #315a58;
+    align-self: flex-start;
+    position: relative;
+    margin: 5px;
+}
+.image-text {
+    position: relative;
+    font-size: 15px;
+    bottom: 55px;
+}
+.skill{
+    margin-top: -50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    
+}
+.skill p{
+    margin: auto;
+    margin-left: 20px;
+    line-height: 40px;
+}
+.bar{
+    display: block;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0, 3);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px;
+}
+.bar span{
+    height: 30px;
+    float: left;
+    background: rgb(0, 218, 163);
+}
+.corel{
+    width: 80%;
+    
+}
+.photoshop{
+    width: 70%;
+}
+.languages{
+    display: inline;
+    margin-top: 5px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.languages p{
+    margin: auto;
+    margin-left: 20px;
+    line-height: 40px;
+}
+.english{
+    width: 90%;
+}
+.Deutsch{
+    width: 70%;
+}
+.content{
+    width: 550px;
+    margin-top: 1px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.contentdua{
+    background-color: #cdcdc0;
+    box-shadow: 1px 1px 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    width: 545px;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+.career {
+    color: #5eb9b6;
+}
+.contentdua h3 {
+    font-size: 20px;
+}
+.fa {
+    color: #305a57;
+    align-self: flex-start;
+    position: relative;
+    margin: 5px;
+}
+
+.contentdua ul li {
+    font-size: 13px;
+}
+.contenttiga{
+    background-color: #cdcdc0;
+    width: 545px;
+    padding: 2px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px;
+    height: 400px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.edu1{
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+.edu2{
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.footer{
+    width: 950px;
+    background-color: #c5c547;
+    box-shadow: 1px 1px 5px;
+    height: 140px;
+    margin-right: 5px;
+    margin-left: -405px;
+    text-align: center ;
+    font-size: 10px;
+    
+}
+.footer a{
+    color: black;
+    font-size: 15px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    transition:  0.5s ease;
+}
+.footer a:hover {
+    color: rgb(42, 177, 198);
+    transform: translate(0, -30px);
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 768px) {
+    /* Aturan CSS untuk layar berukuran kurang dari atau sama dengan 768px */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Aturan CSS untuk layar berukuran antara 769px dan 1024px */
+}
