@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 200px;
+    height: 500px;
+    display: absolute ;
+
+}
+.tombol {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
